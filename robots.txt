@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ionex.com/sitemap.xml
+Sitemap: https://ionex.agency/sitemap.xml
