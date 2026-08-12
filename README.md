@@ -42,8 +42,8 @@ La skill está pensada para el template de 4 páginas — se adaptó a mano para
 ## Pendiente antes de publicar
 - [ ] Logo real (hoy es wordmark de texto "IONEX" — coincide con la foto de perfil de IG; si aparece un archivo de logo, meterlo en `assets/img/`)
 - [ ] Imagen para `og:image` (1200x630) — cómo se ve el link al compartirlo en WhatsApp/redes, hoy no hay ninguna
-- [ ] Confirmar que `contacto@ionex.ai` existe y recibe mail (si no, crear el alias o cambiar a otro real)
-- [ ] Conectar dominio real (`ionex.ai` u otro) — hoy `index.html`, `sitemap.xml` y `robots.txt` usan `https://ionex.ai/` a fuego, ajustar si el dominio final es distinto
+- [ ] Confirmar que `contacto@ionex.ai` existe y recibe mail (si no, crear el alias o cambiar a otro real) — **ojo:** el sitio web ahora apunta a `ionex.com` (2026-08-12, el usuario decidió `.com` en vez de `.ai` al ver que el `.ai` no estaba comprado), queda un mail `@ionex.ai` con web en `.com` — decidir si conviene unificar a un mail `@ionex.com` más adelante
+- [x] Conectar dominio real → decidido: `ionex.com`. `index.html`, `sitemap.xml` y `robots.txt` ya actualizados a `https://ionex.com/`. Pendiente: confirmar que el usuario efectivamente compró/conectó el dominio en Vercel
 - [ ] Publicar vía GitHub + Vercel (mismo patrón que el resto de los proyectos, ver memoria `project_vps_hosting_webs`) — el usuario lo está haciendo él mismo, tiene los pasos
 - [ ] Una vez con dominio conectado: dar de alta el sitio en Google Search Console (requiere la cuenta de Google del usuario, no lo puede hacer Claude)
 - [ ] Una vez en vivo: tomar el screenshot real para el 3er post de Instagram (pieza de prueba, no prompt de IA)
