@@ -171,7 +171,6 @@ nav.scrolled .nav-logo { opacity: 1; transform: none; }
 .service-block-body > p { color: var(--muted); line-height: 1.55; margin-bottom: 1rem; max-width: 640px; }
 .service-block-subtitle { font-weight: 700; margin: 1.8rem 0 1rem; font-size: 1rem; }
 .service-block-body .agent-steps, .service-block-body .agent-example { margin-left: 0; margin-right: 0; max-width: 620px; }
-.service-block-body .why-grid { grid-template-columns: 1fr 1fr; margin-top: 2rem; }
 .service-eyebrow { font-size: .78rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); margin-bottom: 1.4rem; }
 .service-title { font-family: var(--ff-display); font-weight: 700; font-size: clamp(1.6rem, 3vw, 2.3rem); line-height: 1.15; margin-bottom: 1rem; }
 .service-desc { color: var(--muted); line-height: 1.5; margin-bottom: 1.8rem; }
@@ -179,14 +178,20 @@ nav.scrolled .nav-logo { opacity: 1; transform: none; }
 .service-list li { font-size: .92rem; color: var(--muted); display: flex; align-items: flex-start; gap: .6rem; }
 .service-list li::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: #fff; margin-top: .5rem; flex-shrink: 0; }
 
-/* ─── WHY / CATÁLOGO / PASOS: grilla de 4 tarjetas (reutilizable) ─── */
-.why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1.4rem; margin-top: 2rem; text-align: left; }
-.why-card { background: var(--card); border: 1px solid var(--hairline); border-radius: 16px; padding: 1.8rem 1.5rem; transition: border-color .25s ease, transform .25s ease; }
-.why-card:hover { border-color: rgba(255,255,255,.28); transform: translateY(-3px); }
-.why-card-stat { font-family: var(--ff-display); font-weight: 800; font-size: 1.9rem; margin-bottom: .5rem; }
-.why-card-icon svg { width: 24px; height: 24px; stroke: #fff; margin-bottom: .9rem; }
-.why-card-title { font-weight: 600; margin-bottom: .4rem; font-size: 1rem; }
-.why-card-desc { font-size: .87rem; color: var(--muted); line-height: 1.45; }
+/* ─── VER MÁS: acordeón nativo para no cargar la landing ─── */
+.service-toggle { margin-top: 1.6rem; max-width: 620px; }
+.service-toggle summary {
+  list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: .5rem;
+  font-weight: 600; font-size: .95rem; color: #fff; background: transparent;
+  border: 1px solid rgba(255,255,255,.35); border-radius: 999px; padding: .8rem 1.6rem;
+  transition: all .25s cubic-bezier(.16,1,.3,1);
+}
+.service-toggle summary::-webkit-details-marker { display: none; }
+.service-toggle summary:hover { background: #fff; color: var(--ink); }
+.service-toggle .toggle-less { display: none; }
+.service-toggle[open] .toggle-more { display: none; }
+.service-toggle[open] .toggle-less { display: inline; }
+.service-toggle-content { margin-top: 1.8rem; }
 .reveal-d3.visible { transition-delay: .3s; }
 
 /* ─── CONFIANZA: filas en vez de tarjetas, para variar el ritmo visual ─── */
@@ -293,7 +298,6 @@ footer.site-footer { background: var(--ink-alt); border-top: 1px solid var(--hai
   .nav-links { display: none; }
   .hamburger { display: flex; }
   .service-block { flex-direction: column; gap: .8rem; }
-  .service-block-body .why-grid { grid-template-columns: 1fr; max-width: none; }
   .footer-inner { grid-template-columns: 1fr; }
   .contrast-grid { grid-template-columns: 1fr; }
 }

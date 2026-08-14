@@ -48,10 +48,9 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "¿Tengo que aprender algo técnico?", "acceptedAnswer": {"@type": "Answer", "text": "No, vos seguís usando WhatsApp como siempre. Nosotros configuramos todo del lado de atrás."}},
+    {"@type": "Question", "name": "¿Tengo que aprender algo técnico?", "acceptedAnswer": {"@type": "Answer", "text": "No, todo se configura del lado de atrás. Vos seguís trabajando como ya lo hacés."}},
     {"@type": "Question", "name": "¿Qué pasa si el asistente no sabe responder algo?", "acceptedAnswer": {"@type": "Answer", "text": "Deriva a un humano, nunca inventa una respuesta."}},
     {"@type": "Question", "name": "¿Cuánto cuesta?", "acceptedAnswer": {"@type": "Answer", "text": "Depende de lo que tu negocio necesite, por eso arrancamos siempre con el diagnóstico gratuito, sin compromiso."}},
-    {"@type": "Question", "name": "¿Dependo de Ionex para siempre?", "acceptedAnswer": {"@type": "Answer", "text": "No: WhatsApp, infraestructura y credenciales quedan a tu nombre. Si en algún momento decidís seguir por tu cuenta, te llevás todo."}},
     {"@type": "Question", "name": "¿Sirve para mi tipo de negocio?", "acceptedAnswer": {"@type": "Answer", "text": "Se arma a medida en el diagnóstico, no es una plantilla genérica."}}
   ]
 }
@@ -162,48 +161,29 @@
         <h3>Sistema de Atención 24 Horas</h3>
         <p>Un empleado digital que nunca duerme: atiende WhatsApp, agenda turnos y sigue el proceso completo del cliente, sin errores.</p>
 
-        <p class="service-block-subtitle">Así funciona, paso a paso</p>
-        <ol class="agent-steps">
-          <li class="reveal"><span class="agent-step-n">1</span><span>Tu cliente escribe por WhatsApp, a cualquier hora.</span></li>
-          <li class="reveal"><span class="agent-step-n">2</span><span>El asistente entiende qué necesita: sacar un turno, preguntar precios/horarios, reprogramar, cancelar.</span></li>
-          <li class="reveal"><span class="agent-step-n">3</span><span>Antes de confirmar, revisa la agenda real, así nunca se pisan dos turnos.</span></li>
-          <li class="reveal"><span class="agent-step-n">4</span><span>Si falta un dato, deriva a una persona en vez de inventar una respuesta.</span></li>
-          <li class="reveal"><span class="agent-step-n">5</span><span>Manda un recordatorio automático, sin que nadie tenga que acordarse.</span></li>
-          <li class="reveal"><span class="agent-step-n">6</span><span>Si el cliente no vuelve en meses, lo reactiva con un mensaje pensado para que responda.</span></li>
-          <li class="reveal"><span class="agent-step-n">7</span><span>Después de la visita, pide la reseña y responde las que ya llegaron.</span></li>
-        </ol>
-        <div class="agent-example reveal">
-          <p class="agent-example-label">Ejemplo real: en una clínica</p>
-          <p class="agent-example-text">Una clínica recibe consultas todo el día por WhatsApp: precios, disponibilidad, dudas sobre tratamientos. El agente responde al instante, agenda en el calendario real sin chocar con otro turno, y manda un recordatorio automático antes de la cita. Si la paciente no confirma, avisa al equipo. Nadie tuvo que estar pendiente del teléfono.</p>
-          <img src="assets/images/panel-demo.png" alt="Panel en vivo del agente de WhatsApp: citas del día, porcentaje gestionado sin ayuda humana y próximo hueco libre" class="agent-example-image" loading="lazy" width="1175" height="847">
-          <p class="agent-example-caption">Así lo ves vos: un panel de solo lectura, actualizado en vivo. Datos de ejemplo.</p>
-        </div>
+        <details class="service-toggle reveal">
+          <summary><span class="toggle-more">Ver más</span><span class="toggle-less">Ver menos</span></summary>
+          <div class="service-toggle-content">
+            <p class="service-block-subtitle">Así funciona, paso a paso</p>
+            <ol class="agent-steps">
+              <li><span class="agent-step-n">1</span><span>Tu cliente escribe por WhatsApp, a cualquier hora.</span></li>
+              <li><span class="agent-step-n">2</span><span>El asistente entiende qué necesita: sacar un turno, preguntar precios/horarios, reprogramar, cancelar.</span></li>
+              <li><span class="agent-step-n">3</span><span>Antes de confirmar, revisa la agenda real, así nunca se pisan dos turnos.</span></li>
+              <li><span class="agent-step-n">4</span><span>Si falta un dato, deriva a una persona en vez de inventar una respuesta.</span></li>
+              <li><span class="agent-step-n">5</span><span>Manda un recordatorio automático, sin que nadie tenga que acordarse.</span></li>
+              <li><span class="agent-step-n">6</span><span>Si el cliente no vuelve en meses, lo reactiva con un mensaje pensado para que responda.</span></li>
+              <li><span class="agent-step-n">7</span><span>Después de la visita, pide la reseña y responde las que ya llegaron.</span></li>
+            </ol>
+            <div class="agent-example">
+              <p class="agent-example-label">Ejemplo real: en una clínica</p>
+              <p class="agent-example-text">Una clínica recibe consultas todo el día por WhatsApp: precios, disponibilidad, dudas sobre tratamientos. El agente responde al instante, agenda en el calendario real sin chocar con otro turno, y manda un recordatorio automático antes de la cita. Si la paciente no confirma, avisa al equipo. Nadie tuvo que estar pendiente del teléfono.</p>
+              <img src="assets/images/panel-demo.png" alt="Panel en vivo del agente de WhatsApp: citas del día, porcentaje gestionado sin ayuda humana y próximo hueco libre" class="agent-example-image" loading="lazy" width="1175" height="847">
+              <p class="agent-example-caption">Así lo ves vos: un panel de solo lectura, actualizado en vivo. Datos de ejemplo.</p>
+            </div>
+          </div>
+        </details>
 
-        <p class="service-block-subtitle">Cómo trabajamos para instalarlo</p>
-        <div class="why-grid">
-          <div class="why-card reveal">
-            <div class="why-card-stat">01</div>
-            <div class="why-card-title">Diagnóstico gratis</div>
-            <div class="why-card-desc">Medimos qué estás perdiendo hoy, sin compromiso.</div>
-          </div>
-          <div class="why-card reveal reveal-d1">
-            <div class="why-card-stat">02</div>
-            <div class="why-card-title">Propuesta a tu medida</div>
-            <div class="why-card-desc">Nada de paquetes genéricos, armamos lo que tu negocio necesita.</div>
-          </div>
-          <div class="why-card reveal reveal-d2">
-            <div class="why-card-stat">03</div>
-            <div class="why-card-title">Implementación</div>
-            <div class="why-card-desc">Todo queda a tu nombre: VPS, credenciales.</div>
-          </div>
-          <div class="why-card reveal reveal-d3">
-            <div class="why-card-stat">04</div>
-            <div class="why-card-title">Acompañamiento</div>
-            <div class="why-card-desc">Seguimos cerca, ajustando y mejorando el sistema con vos.</div>
-          </div>
-        </div>
-
-        <a href="#contacto" class="btn-primary reveal" style="margin-top:2rem">Quiero esto para mi negocio</a>
+        <a href="#contacto" class="btn-primary reveal" style="margin-top:1.6rem">Quiero esto para mi negocio</a>
       </div>
     </div>
 
@@ -268,7 +248,7 @@
         <div class="trust-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21s-7-6.5-7-11a7 7 0 0114 0c0 4.5-7 11-7 11z"/></svg></div>
         <div>
           <div class="trust-row-title">Somos locales</div>
-          <div class="trust-row-desc">Equipo uruguayo, soporte cercano en tu idioma y horario.</div>
+          <div class="trust-row-desc">Equipo uruguayo, soporte cercano.</div>
         </div>
       </div>
     </div>
@@ -283,7 +263,7 @@
     <div class="faq-list">
       <details class="reveal">
         <summary>¿Tengo que aprender algo técnico?</summary>
-        <p>No, vos seguís usando WhatsApp como siempre. Nosotros configuramos todo del lado de atrás.</p>
+        <p>No, todo se configura del lado de atrás. Vos seguís trabajando como ya lo hacés.</p>
       </details>
       <details class="reveal">
         <summary>¿Qué pasa si el asistente no sabe responder algo?</summary>
@@ -292,10 +272,6 @@
       <details class="reveal">
         <summary>¿Cuánto cuesta?</summary>
         <p>Depende de lo que tu negocio necesite, por eso arrancamos siempre con el diagnóstico gratuito, sin compromiso.</p>
-      </details>
-      <details class="reveal">
-        <summary>¿Dependo de Ionex para siempre?</summary>
-        <p>No: WhatsApp, infraestructura y credenciales quedan a tu nombre. Si en algún momento decidís seguir por tu cuenta, te llevás todo.</p>
       </details>
       <details class="reveal">
         <summary>¿Sirve para mi tipo de negocio?</summary>
