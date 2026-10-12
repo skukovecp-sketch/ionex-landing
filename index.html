@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ionex AI: IA, Automatización y Desarrollo a Medida</title>
-<meta name="description" content="Auditamos tu empresa, automatizamos lo repetitivo y aplicamos IA donde hace falta. Diagnóstico gratuito, sin compromiso.">
+<meta name="description" content="Diagnosticamos tu empresa, automatizamos lo repetitivo y aplicamos IA donde hace falta. Primera charla sin costo y sin compromiso.">
 <link rel="canonical" href="https://ionex.agency/">
 
 <meta name="robots" content="index, follow">
@@ -12,15 +12,15 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ionex AI: IA, Automatización y Desarrollo a Medida">
-<meta property="og:description" content="Auditamos tu empresa, automatizamos lo repetitivo y aplicamos IA donde hace falta. Diagnóstico gratuito, sin compromiso.">
+<meta property="og:description" content="Diagnosticamos tu empresa, automatizamos lo repetitivo y aplicamos IA donde hace falta. Primera charla sin costo y sin compromiso.">
 <meta property="og:url" content="https://ionex.agency/">
-<meta property="og:locale" content="es_UY">
+<meta property="og:locale" content="es">
 <meta property="og:site_name" content="Ionex AI">
-<!-- REVISAR: falta og:image (1200x630) — no hay foto/imagen real todavía, ver README pendientes -->
+<!-- REVISAR: falta og:image (1200x630), no hay foto/imagen real todavía, ver README pendientes -->
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ionex AI: IA, Automatización y Desarrollo a Medida">
-<meta name="twitter:description" content="Auditamos tu empresa, automatizamos lo repetitivo y aplicamos IA donde hace falta. Diagnóstico gratuito, sin compromiso.">
+<meta name="twitter:description" content="Diagnosticamos tu empresa, automatizamos lo repetitivo y aplicamos IA donde hace falta. Primera charla sin costo y sin compromiso.">
 
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b1220'/%3E%3Ctext x='32' y='44' font-family='Arial' font-weight='800' font-size='38' fill='white' text-anchor='middle'%3EI%3C/text%3E%3C/svg%3E">
 
@@ -37,10 +37,7 @@
   "name": "Ionex AI",
   "description": "Desarrollo de soluciones de IA, automatización y desarrollo a medida para empresas.",
   "url": "https://ionex.agency/",
-  "email": "contacto@ionex.ai",
-  "address": { "@type": "PostalAddress", "addressCountry": "UY" },
-  "areaServed": "UY",
-  "sameAs": ["https://instagram.com/ionex.ai"]
+  "email": "contacto@ionex.ai"
 }
 </script>
 <script type="application/ld+json">
@@ -48,10 +45,11 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "¿Tengo que aprender algo técnico?", "acceptedAnswer": {"@type": "Answer", "text": "No, todo se configura del lado de atrás. Vos seguís trabajando como ya lo hacés."}},
-    {"@type": "Question", "name": "¿Qué pasa si el asistente no sabe responder algo?", "acceptedAnswer": {"@type": "Answer", "text": "Deriva a un humano, nunca inventa una respuesta."}},
-    {"@type": "Question", "name": "¿Cuánto cuesta?", "acceptedAnswer": {"@type": "Answer", "text": "Depende de lo que tu empresa necesite, por eso arrancamos siempre con el diagnóstico gratuito, sin compromiso."}},
-    {"@type": "Question", "name": "¿Sirve para mi tipo de empresa?", "acceptedAnswer": {"@type": "Answer", "text": "Se arma a medida en el diagnóstico, no es una plantilla genérica."}}
+    {"@type": "Question", "name": "¿Cuánto cuesta el diagnóstico?", "acceptedAnswer": {"@type": "Answer", "text": "Depende del tamaño de tu empresa. La primera charla es sin costo y sin compromiso; ahí te decimos el precio para tu caso antes de avanzar con nada."}},
+    {"@type": "Question", "name": "No tengo a nadie técnico en mi empresa, ¿igual puedo?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, es el caso más común. Te armamos un equipo de desarrollo propio que ejecuta el plan por vos, sin que tengas que contratar a nadie."}},
+    {"@type": "Question", "name": "Ya tengo gente técnica, ¿para qué me sirve esto?", "acceptedAnswer": {"@type": "Answer", "text": "Formamos a tu equipo sobre tu propio plan durante tres meses, hasta que puedan ejecutarlo solos. No reemplazamos a tu gente, la potenciamos."}},
+    {"@type": "Question", "name": "¿Tengo que aprender algo técnico yo?", "acceptedAnswer": {"@type": "Answer", "text": "No. Vos seguís trabajando como ya lo hacés; todo lo que se implementa queda del lado de atrás, funcionando solo."}},
+    {"@type": "Question", "name": "¿Qué pasa si no quiero seguir después del diagnóstico?", "acceptedAnswer": {"@type": "Answer", "text": "El plan es tuyo igual, lo ejecutes con nosotros o con quien quieras. Nunca hay permanencia forzada."}}
   ]
 }
 </script>
@@ -66,8 +64,12 @@
 
 <!-- NAV -->
 <nav id="nav">
-  <span class="nav-logo">IONEX</span>
+  <a href="#" class="nav-brand" aria-label="Ionex, volver arriba">
+    <img src="assets/img/logo-mark.png" alt="" class="nav-logo-img">
+    <span class="nav-logo">IONEX</span>
+  </a>
   <ul class="nav-links">
+    <li><a href="#como-trabajamos">Cómo trabajamos</a></li>
     <li><a href="#servicios">Servicios</a></li>
     <li><a href="#confianza">Confianza</a></li>
     <li><a href="#contacto">Contacto</a></li>
@@ -76,6 +78,7 @@
   <button class="hamburger" id="hamburger" aria-label="Menú"><span></span><span></span><span></span></button>
 </nav>
 <div class="mobile-menu" id="mobile-menu">
+  <a href="#como-trabajamos" onclick="closeMobile()">Cómo trabajamos</a>
   <a href="#servicios" onclick="closeMobile()">Servicios</a>
   <a href="#confianza" onclick="closeMobile()">Confianza</a>
   <a href="#contacto" onclick="closeMobile()">Contacto</a>
@@ -83,13 +86,10 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-brand">
-    <img src="assets/img/logo-mark.png" alt="Ionex" class="hero-logo-img">
-  </div>
-  <h1 class="hero-tagline">Creamos soluciones de IA para escalar tu empresa.</h1>
-  <p class="hero-sub">Identificamos oportunidades de automatización, reducimos costos, mejoramos la eficiencia operativa y construimos una arquitectura tecnológica sólida.</p>
+  <h1 class="hero-tagline">Soluciones de inteligencia artificial para escalar tu empresa.</h1>
+  <p class="hero-sub">Diagnosticamos cómo funciona hoy tu empresa y proponemos un plan claro: ordenamos procesos, optimizamos tiempo y evitamos que sigas perdiendo plata sin darte cuenta, aplicando IA donde de verdad suma, para que tu empresa crezca más fuerte y más segura.</p>
   <div class="hero-ctas">
-    <a href="#contacto" class="btn-primary btn-large">Solicitar diagnóstico personalizado</a>
+    <a href="#contacto" class="btn-primary btn-large">Quiero mi diagnóstico</a>
   </div>
 </section>
 
@@ -100,28 +100,63 @@
     <span class="ticker-item">Chatbots y Agentes</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Diseño Web</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Atención al Cliente 24/7</span><span class="ticker-dot">·</span>
+    <span class="ticker-item">CRM y ERP</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Soluciones a Medida</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Integración con Sistemas</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Automatización de procesos</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Chatbots y Agentes</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Diseño Web</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Atención al Cliente 24/7</span><span class="ticker-dot">·</span>
+    <span class="ticker-item">CRM y ERP</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Soluciones a Medida</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Integración con Sistemas</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Automatización de procesos</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Chatbots y Agentes</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Diseño Web</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Atención al Cliente 24/7</span><span class="ticker-dot">·</span>
+    <span class="ticker-item">CRM y ERP</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Soluciones a Medida</span><span class="ticker-dot">·</span>
     <span class="ticker-item">Integración con Sistemas</span><span class="ticker-dot">·</span>
   </div>
 </div>
 
-<!-- SERVICIOS: todo vive acá, en un solo lugar -->
+<!-- CÓMO TRABAJAMOS: el proceso en 4 pasos, antes de entrar al detalle -->
+<section id="como-trabajamos" class="tile">
+  <div class="tile-inner text-center">
+    <h2 class="section-title section-title-xl reveal">Cómo trabajamos</h2>
+    <p class="section-lead mx-auto reveal">Cuatro pasos, siempre en el mismo orden: primero entendemos tu empresa, después actuamos.</p>
+  </div>
+
+  <div class="process-grid">
+    <div class="process-step reveal">
+      <div class="process-step-n">01</div>
+      <h3>Hablamos</h3>
+      <p>Una charla corta y sin compromiso. Nos contás cómo funciona tu empresa hoy y qué te está frenando.</p>
+    </div>
+    <div class="process-step reveal reveal-d1">
+      <div class="process-step-n">02</div>
+      <h3>Diagnóstico</h3>
+      <p>Mapeamos tus procesos, detectamos dónde se pierde tiempo y dinero, y revisamos los riesgos de seguridad.</p>
+    </div>
+    <div class="process-step reveal reveal-d2">
+      <div class="process-step-n">03</div>
+      <h3>Te mostramos el plan</h3>
+      <p>Un roadmap de los primeros tres meses, con lo que se implementa y en qué orden. Es tuyo, lo sigas con nosotros o no.</p>
+    </div>
+    <div class="process-step reveal reveal-d3">
+      <div class="process-step-n">04</div>
+      <h3>Lo implementamos</h3>
+      <p>Tu equipo de desarrollo o la formación del tuyo, según lo que tu empresa necesite. Vos elegís cuándo arrancar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS: el camino real, diagnóstico primero, después un solo paso más -->
 <section id="servicios" class="tile">
   <div class="tile-inner text-center">
     <p class="eyebrow">Servicios</p>
-    <h2 class="section-title reveal">Lo que hacemos para tu empresa</h2>
+    <h2 class="section-title section-title-xl reveal">Un plan antes que nada</h2>
+    <p class="section-lead mx-auto reveal">Meter tecnología sin ordenar antes sale caro. Por eso siempre empezamos igual.</p>
   </div>
 
   <div class="services-list">
@@ -129,81 +164,100 @@
     <div class="service-block reveal">
       <div class="service-block-n">01</div>
       <div class="service-block-body">
-        <h3>Automatización de procesos</h3>
-        <p>Identificamos las tareas repetitivas que le quitan horas a tu equipo: seguimientos, reportes, carga de datos entre sistemas. Las dejamos corriendo solas, sin que nadie tenga que acordarse de hacerlas. Menos tiempo perdido en lo operativo, más tiempo para lo que hace crecer tu empresa.</p>
+        <h3>Diagnóstico inicial</h3>
+        <p>Miramos cómo funciona hoy tu empresa de punta a punta: marketing, ventas, entrega y administración. Detectamos dónde se pierde tiempo y dinero, y qué riesgos conviene conocer antes de automatizar nada. Salís con un plan escrito de los próximos tres meses, tuyo aunque después no sigas con nosotros.</p>
       </div>
     </div>
 
     <div class="service-block reveal">
       <div class="service-block-n">02</div>
       <div class="service-block-body">
-        <h3>Chatbots y Agentes</h3>
-        <p>Construimos agentes de IA que entienden lenguaje natural y ejecutan procesos reales de tu empresa, desde la atención al cliente hasta tareas internas de cualquier área. El control de cada decisión importante queda siempre en el código, nunca librado al azar.</p>
+        <h3>Tu equipo de desarrollo</h3>
+        <p>Si hoy no tenés quién ejecute ese plan, te armamos un equipo propio que lo implementa mes a mes, bajo nuestra dirección. Crecés sin sumar un sueldo fijo: si tu negocio pide más, el equipo se agranda con él, y todo queda a tu nombre desde el primer día.</p>
       </div>
     </div>
 
     <div class="service-block reveal">
       <div class="service-block-n">03</div>
       <div class="service-block-body">
-        <h3>Diseño Web</h3>
-        <p>Se arma como vos lo necesites: desde una página de acción puntual hasta un sitio completo con más superficie para aparecer en Google.</p>
-        <ul class="service-list">
-          <li>Landing Page de una sola página</li>
-          <li>Web completa multi-página</li>
-          <li>SEO incluido</li>
-          <li>Entrega rápida</li>
-        </ul>
+        <h3>Formación de tu equipo</h3>
+        <p>Si ya tenés gente técnica adentro, te la formamos: tres meses de trabajo sobre tu propio plan, hasta que tu equipo pueda ejecutarlo solo. Sin depender de nadie de afuera para seguir creciendo.</p>
       </div>
     </div>
 
-    <div class="service-block reveal">
-      <div class="service-block-n">04</div>
-      <div class="service-block-body">
-        <h3>Atención al Cliente 24/7</h3>
-        <p>Ofrecemos soporte con asistentes virtuales que comprenden el lenguaje humano y responden con precisión, las 24 horas. No solo conversan: agendan turnos, resuelven dudas y siguen el proceso completo de cada cliente, sin errores.</p>
+  </div>
 
-        <details class="service-toggle reveal">
-          <summary><span class="toggle-more">Ver más</span><span class="toggle-less">Ver menos</span></summary>
-          <div class="service-toggle-content">
-            <p class="service-block-subtitle">Así funciona, paso a paso</p>
-            <ol class="agent-steps">
-              <li><span class="agent-step-n">1</span><span>Tu cliente escribe a cualquier hora.</span></li>
-              <li><span class="agent-step-n">2</span><span>El asistente entiende qué necesita: sacar un turno, preguntar precios/horarios, reprogramar, cancelar.</span></li>
-              <li><span class="agent-step-n">3</span><span>Antes de confirmar, revisa la agenda real, así nunca se pisan dos turnos.</span></li>
-              <li><span class="agent-step-n">4</span><span>Si falta un dato, deriva a una persona en vez de inventar una respuesta.</span></li>
-              <li><span class="agent-step-n">5</span><span>Manda un recordatorio automático, sin que nadie tenga que acordarse.</span></li>
-              <li><span class="agent-step-n">6</span><span>Si el cliente no vuelve en meses, lo reactiva con un mensaje pensado para que responda.</span></li>
-              <li><span class="agent-step-n">7</span><span>Después de la visita, pide la reseña y responde las que ya llegaron.</span></li>
-            </ol>
-            <div class="agent-example">
-              <p class="agent-example-label">Ejemplo real: en una clínica</p>
-              <p class="agent-example-text">Una clínica recibe consultas todo el día por WhatsApp: precios, disponibilidad, dudas sobre tratamientos. El agente responde al instante, agenda en el calendario real sin chocar con otro turno, y manda un recordatorio automático antes de la cita. Si la paciente no confirma, avisa al equipo. Nadie tuvo que estar pendiente del teléfono.</p>
-              <img src="assets/images/panel-demo.png" alt="Panel en vivo del agente de WhatsApp: citas del día, porcentaje gestionado sin ayuda humana y próximo hueco libre" class="agent-example-image" loading="lazy" width="1175" height="847">
-              <p class="agent-example-caption">Así lo ves vos: un panel de solo lectura, actualizado en vivo. Datos de ejemplo.</p>
-            </div>
-          </div>
-        </details>
+  <div class="tile-inner text-center" style="margin-top:3.5rem">
+    <a href="#contacto" class="btn-primary btn-large reveal">Quiero mi diagnóstico</a>
+  </div>
+</section>
 
-        <a href="#contacto" class="btn-primary reveal" style="margin-top:1.6rem">Quiero esto para mi empresa</a>
-      </div>
+<!-- QUÉ PODEMOS CREAR: vitrina de posibilidades, resultado del diagnóstico -->
+<section id="posibilidades" class="tile tile-alt">
+  <div class="tile-inner text-center">
+    <p class="eyebrow">Lo que puede salir de tu diagnóstico</p>
+    <h2 class="section-title section-title-xl reveal">Un vistazo a lo que podemos construir</h2>
+    <p class="section-lead mx-auto reveal">Nada de esto se vende suelto: el diagnóstico decide qué tiene sentido para tu empresa y en qué orden. Así es como se ve una vez implementado.</p>
+  </div>
+
+  <div class="possibility-grid">
+    <div class="possibility-card reveal">
+      <div class="possibility-card-icon"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 3v6h-6"/></svg></div>
+      <h3>Automatización de procesos</h3>
+      <p>Lo repetitivo deja de consumir horas de tu equipo: seguimientos, reportes, carga de datos entre sistemas. Corre solo, sin que nadie tenga que acordarse. Esas horas que recuperás son horas que podés poner a vender.</p>
     </div>
-
-    <div class="service-block reveal">
-      <div class="service-block-n">05</div>
-      <div class="service-block-body">
-        <h3>Soluciones a Medida</h3>
-        <p>¿Tu empresa necesita algo que no entra en ninguna de las categorías anteriores? A partir del diagnóstico, analizamos en detalle dónde se puede optimizar tiempo y procesos, y definimos qué conviene implementar. Desarrollamos el software específico para tu caso, pensado para potenciar tu empresa.</p>
-      </div>
+    <div class="possibility-card reveal">
+      <div class="possibility-card-icon"><svg viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 12h.01M15 12h.01M12 3v4"/></svg></div>
+      <h3>Chatbots y agentes de IA</h3>
+      <p>Un asistente que entiende lenguaje natural y resuelve procesos reales de tu empresa, no solo atención al cliente. Crece la atención sin que crezca el riesgo.</p>
     </div>
-
-    <div class="service-block reveal">
-      <div class="service-block-n">06</div>
-      <div class="service-block-body">
-        <h3>Integración con Sistemas</h3>
-        <p>Conectamos tu empresa con las herramientas que ya usás: CRM, calendarios, plataformas de pago y hojas de cálculo. Tus sistemas trabajan juntos, sin cargar los mismos datos dos veces a mano.</p>
-      </div>
+    <div class="possibility-card reveal">
+      <div class="possibility-card-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+      <h3>Atención al cliente 24/7</h3>
+      <p>Agenda turnos, responde dudas y reactiva clientes inactivos a cualquier hora, sin errores de agenda. Ningún lead se pierde por llegar fuera de horario: eso es facturación que hoy se te escapa.</p>
     </div>
+    <div class="possibility-card reveal">
+      <div class="possibility-card-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
+      <h3>Diseño web</h3>
+      <p>Desde una landing de una sola acción hasta un sitio completo con más superficie para aparecer en Google. Más lugares donde un cliente nuevo te puede encontrar.</p>
+    </div>
+    <div class="possibility-card reveal">
+      <div class="possibility-card-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><path d="M10 6.5h4a3 3 0 013 3V14M6.5 10v4a3 3 0 003 3h4"/></svg></div>
+      <h3>Integración de sistemas</h3>
+      <p>Tu CRM, tu calendario, tus cobros y tus planillas trabajando juntos, sin cargar el mismo dato dos veces a mano. Menos errores humanos, más tiempo para decisiones que sí necesitan a una persona.</p>
+    </div>
+    <div class="possibility-card reveal">
+      <div class="possibility-card-icon"><svg viewBox="0 0 24 24"><path d="M9 3L4 9v6l5 6M15 3l5 6v6l-5 6"/></svg></div>
+      <h3>Software a medida</h3>
+      <p>Cuando lo que tu empresa necesita no entra en ninguna categoría de catálogo, lo construimos específico para tu caso, a partir de lo que encontramos en tu diagnóstico. Pensado para lo que a vos te hace crecer, no para una plantilla genérica.</p>
+    </div>
+  </div>
+</section>
 
+<!-- CIFRAS: lo que mide un diagnóstico y un plan bien hecho -->
+<section id="cifras" class="tile">
+  <div class="tile-inner text-center">
+    <p class="eyebrow">En números</p>
+    <h2 class="section-title section-title-xl reveal">Lo que entra en cada diagnóstico</h2>
+    <p class="section-lead mx-auto reveal">Todo diagnóstico sigue el mismo método, sin recortes ni versiones livianas.</p>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-item reveal">
+      <b>4</b>
+      <span>áreas analizadas: marketing, ventas, entrega y administración</span>
+    </div>
+    <div class="stat-item reveal reveal-d1">
+      <b>4</b>
+      <span>fases del diagnóstico: procesos, oportunidades, seguridad y plan</span>
+    </div>
+    <div class="stat-item reveal reveal-d2">
+      <b>3</b>
+      <span>meses de roadmap, con lo que se implementa mes a mes y por qué</span>
+    </div>
+    <div class="stat-item reveal reveal-d3">
+      <b>15</b>
+      <span>días entre cada reunión de avance con tu equipo de desarrollo</span>
+    </div>
   </div>
 </section>
 
@@ -211,7 +265,8 @@
 <section id="comparativo" class="tile tile-alt">
   <div class="tile-inner text-center">
     <p class="eyebrow">El cambio real</p>
-    <h2 class="section-title reveal">Lo que cambia con Ionex</h2>
+    <h2 class="section-title section-title-xl reveal">Lo que cambia con Ionex</h2>
+    <p class="section-lead mx-auto reveal">La diferencia no es la tecnología: es tener un plan antes de usarla.</p>
     <div class="contrast-grid">
       <div class="contrast-col reveal">
         <p class="contrast-col-title">Sin Ionex</p>
@@ -235,62 +290,121 @@
 <section id="confianza" class="tile">
   <div class="tile-inner text-center">
     <p class="eyebrow">Por qué Ionex</p>
-    <h2 class="section-title reveal">Diseñado para que confíes en cada paso</h2>
+    <h2 class="section-title section-title-xl reveal">Diseñado para que confíes en cada paso</h2>
     <p class="section-lead mx-auto reveal">Arquitectura pensada para producción real.</p>
     <div class="trust-list">
       <div class="trust-row reveal">
         <div class="trust-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div>
         <div>
-          <div class="trust-row-title">Datos protegidos</div>
-          <div class="trust-row-desc">Un agente seguro que protege tu información y la de tus clientes, con registros auditables de cada interacción.</div>
+          <div class="trust-row-title">Seguridad desde el diagnóstico</div>
+          <div class="trust-row-desc">Revisamos riesgos de accesos, datos y dependencias antes de implementar nada. No metemos IA en una empresa desordenada.</div>
         </div>
       </div>
       <div class="trust-row reveal">
         <div class="trust-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg></div>
         <div>
-          <div class="trust-row-title">Resistente a manipulación</div>
-          <div class="trust-row-desc">Filtros que bloquean intentos de hacerse pasar por tu empresa o forzar respuestas del asistente.</div>
+          <div class="trust-row-title">Decisiones con criterio, no al azar</div>
+          <div class="trust-row-desc">Cada agente tiene límites claros en el código: lo que no debe hacer, no lo hace. Nunca improvisa una respuesta.</div>
         </div>
       </div>
       <div class="trust-row reveal">
         <div class="trust-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
         <div>
           <div class="trust-row-title">Todo a tu nombre</div>
-          <div class="trust-row-desc">VPS y credenciales quedan en tu poder, nunca dependés de nosotros para seguir funcionando.</div>
+          <div class="trust-row-desc">Cuentas, credenciales y lo que construimos quedan en tu poder desde el primer día. Nunca dependés de nosotros para seguir funcionando.</div>
         </div>
       </div>
       <div class="trust-row reveal">
-        <div class="trust-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21s-7-6.5-7-11a7 7 0 0114 0c0 4.5-7 11-7 11z"/></svg></div>
+        <div class="trust-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4M3 12a9 9 0 1013-8"/></svg></div>
         <div>
-          <div class="trust-row-title">Somos locales</div>
-          <div class="trust-row-desc">Soporte cercano.</div>
+          <div class="trust-row-title">Un plan antes que un contrato largo</div>
+          <div class="trust-row-desc">Sin permanencias forzadas ni letra chica. El plan te dice qué se hace cada mes, y por qué, antes de que firmes nada.</div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- CALCULADORA A: leads sin responder -->
+<section id="calculadora-leads" class="tile">
+  <div class="tile-inner text-center">
+    <h2 class="section-title section-title-xl reveal">¿Cuánto perdés por leads sin responder?</h2>
+    <p class="section-lead mx-auto reveal">Un cálculo rápido y estimado, con tus propios números. No se guarda nada, no hace falta que dejes tus datos.</p>
+  </div>
+
+  <div class="calc-card reveal">
+    <div class="calc-field">
+      <label for="calc-leads-contactos">Contactos nuevos por semana: <span class="calc-value" id="calc-leads-contactos-v">20</span></label>
+      <input type="range" id="calc-leads-contactos" min="1" max="150" value="20">
+    </div>
+    <div class="calc-field">
+      <label for="calc-leads-perdidos">De cada 10, ¿cuántos se te escapan por tardar en responder? <span class="calc-value" id="calc-leads-perdidos-v">3</span></label>
+      <input type="range" id="calc-leads-perdidos" min="0" max="10" value="3">
+    </div>
+    <div class="calc-field">
+      <label for="calc-leads-ticket">¿Cuánto vale para vos un cliente nuevo? (USD)</label>
+      <input type="number" id="calc-leads-ticket" min="0" step="10" value="150">
+    </div>
+    <div class="calc-result">
+      <div class="calc-result-label">Lo que se te podría estar escapando cada mes</div>
+      <div class="calc-result-value" id="calc-leads-resultado">USD 0</div>
+      <p class="calc-result-note">Es una estimación con tus propios números, no una promesa de resultado. El diagnóstico te dice con precisión dónde se pierde cada contacto.</p>
+    </div>
+    <a href="#contacto" class="btn-primary calc-cta">Quiero mi diagnóstico</a>
+  </div>
+</section>
+
+<!-- CALCULADORA B: horas en tareas repetitivas -->
+<section id="calculadora-horas" class="tile tile-alt">
+  <div class="tile-inner text-center">
+    <h2 class="section-title section-title-xl reveal">¿Cuántas horas perdés en tareas repetitivas?</h2>
+    <p class="section-lead mx-auto reveal">Reportes, carga de datos, seguimientos a mano. Sumalo y mirá cuánto te cuesta al mes.</p>
+  </div>
+
+  <div class="calc-card reveal">
+    <div class="calc-field">
+      <label for="calc-horas-semana">Horas por semana en tareas manuales y repetitivas: <span class="calc-value" id="calc-horas-semana-v">10</span></label>
+      <input type="range" id="calc-horas-semana" min="1" max="60" value="10">
+    </div>
+    <div class="calc-field">
+      <label for="calc-horas-personas">¿Cuántas personas de tu equipo hacen ese tipo de tareas? <span class="calc-value" id="calc-horas-personas-v">1</span></label>
+      <input type="range" id="calc-horas-personas" min="1" max="20" value="1">
+    </div>
+    <div class="calc-result">
+      <div class="calc-result-label">Horas al mes que se van en tareas repetitivas</div>
+      <div class="calc-result-value" id="calc-horas-resultado">0 horas</div>
+      <p class="calc-result-note">Es una estimación con tus propios números, no una promesa de ahorro. El diagnóstico marca qué conviene automatizar primero y qué no.</p>
+    </div>
+    <a href="#contacto" class="btn-primary calc-cta">Quiero mi diagnóstico</a>
+  </div>
+</section>
+
 <!-- FAQ -->
-<section id="faq" class="tile tile-alt">
+<section id="faq" class="tile">
   <div class="tile-inner text-center">
     <p class="eyebrow">Preguntas frecuentes</p>
-    <h2 class="section-title reveal">Antes de escribirnos</h2>
+    <h2 class="section-title section-title-xl reveal">Antes de escribirnos</h2>
+    <p class="section-lead mx-auto reveal">Las dudas que más nos repiten, respondidas directo.</p>
     <div class="faq-list">
       <details class="reveal">
-        <summary>¿Tengo que aprender algo técnico?</summary>
-        <p>No, todo se configura del lado de atrás. Vos seguís trabajando como ya lo hacés.</p>
+        <summary>¿Cuánto cuesta el diagnóstico?</summary>
+        <p>Depende del tamaño de tu empresa. La primera charla es sin costo y sin compromiso; ahí te decimos el precio para tu caso antes de avanzar con nada.</p>
       </details>
       <details class="reveal">
-        <summary>¿Qué pasa si el asistente no sabe responder algo?</summary>
-        <p>Deriva a un humano, nunca inventa una respuesta.</p>
+        <summary>No tengo a nadie técnico en mi empresa, ¿igual puedo?</summary>
+        <p>Sí, es el caso más común. Te armamos un equipo de desarrollo propio que ejecuta el plan por vos, sin que tengas que contratar a nadie.</p>
       </details>
       <details class="reveal">
-        <summary>¿Cuánto cuesta?</summary>
-        <p>Depende de lo que tu empresa necesite, por eso arrancamos siempre con el diagnóstico gratuito, sin compromiso.</p>
+        <summary>Ya tengo gente técnica, ¿para qué me sirve esto?</summary>
+        <p>Formamos a tu equipo sobre tu propio plan durante tres meses, hasta que puedan ejecutarlo solos. No reemplazamos a tu gente, la potenciamos.</p>
       </details>
       <details class="reveal">
-        <summary>¿Sirve para mi tipo de empresa?</summary>
-        <p>Se arma a medida en el diagnóstico, no es una plantilla genérica.</p>
+        <summary>¿Tengo que aprender algo técnico yo?</summary>
+        <p>No. Vos seguís trabajando como ya lo hacés; todo lo que se implementa queda del lado de atrás, funcionando solo.</p>
+      </details>
+      <details class="reveal">
+        <summary>¿Qué pasa si no quiero seguir después del diagnóstico?</summary>
+        <p>El plan es tuyo igual, lo ejecutes con nosotros o con quien quieras. Nunca hay permanencia forzada.</p>
       </details>
     </div>
   </div>
@@ -300,8 +414,43 @@
 <section id="contacto" class="tile tile-light">
   <div class="tile-inner">
     <p class="eyebrow">Contacto</p>
-    <h2 class="section-title reveal">Hablemos.</h2>
-    <p class="section-lead reveal">Contanos qué necesitás. Empezamos siempre por el diagnóstico gratuito, sin compromiso.</p>
+    <h2 class="section-title section-title-xl reveal">Hablemos.</h2>
+    <p class="section-lead reveal">Contanos qué necesitás. Empezamos siempre por el diagnóstico, sin compromiso. Dejanos tus datos y te llamamos en las próximas 24 horas.</p>
+
+    <form id="lead-form" class="lead-form reveal" novalidate>
+      <div class="lead-form-row">
+        <div class="lead-form-field">
+          <label for="lead-nombre">Nombre</label>
+          <input type="text" id="lead-nombre" name="Nombre" required autocomplete="name">
+        </div>
+        <div class="lead-form-field">
+          <label for="lead-email">Email</label>
+          <input type="email" id="lead-email" name="Email" required autocomplete="email">
+        </div>
+      </div>
+      <div class="lead-form-row">
+        <div class="lead-form-field">
+          <label for="lead-telefono">Teléfono</label>
+          <input type="tel" id="lead-telefono" name="telefono" required autocomplete="tel" placeholder="+598 ...">
+        </div>
+      </div>
+      <div class="lead-form-field">
+        <label for="lead-mensaje">¿Cómo te podemos ayudar?</label>
+        <textarea id="lead-mensaje" name="mensaje" rows="3"></textarea>
+      </div>
+      <!-- UTMs: se completan solos con JS a partir de la URL -->
+      <input type="hidden" name="utm_source" id="utm_source">
+      <input type="hidden" name="utm_medium" id="utm_medium">
+      <input type="hidden" name="utm_campaign" id="utm_campaign">
+      <input type="hidden" name="utm_content" id="utm_content">
+      <input type="hidden" name="page_url" id="page_url">
+
+      <button type="submit" class="btn-primary btn-large lead-form-submit">Quiero mi diagnóstico</button>
+      <p class="lead-form-status" id="lead-form-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <p class="lead-form-or reveal">O si preferís, escribinos directo</p>
+
     <div class="contact-cards">
       <div class="contact-card reveal">
         <div class="contact-card-icon">
@@ -324,17 +473,6 @@
         </div>
         <a href="mailto:contacto@ionex.ai?subject=Consulta%20desde%20la%20web" class="btn-contact">Enviar email</a>
       </div>
-      <div class="contact-card reveal reveal-d2">
-        <div class="contact-card-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg>
-        </div>
-        <div>
-          <p class="contact-card-title">Instagram</p>
-          <p class="contact-card-sub">Seguinos y mirá novedades.</p>
-          <span class="contact-card-detail">@ionex.ai</span>
-        </div>
-        <a href="https://instagram.com/ionex.ai" class="btn-contact" target="_blank" rel="noopener">Ver Instagram</a>
-      </div>
     </div>
   </div>
 </section>
@@ -350,12 +488,10 @@
     <div>
       <p class="footer-col-title">Servicios</p>
       <ul class="footer-links">
-        <li><a href="#servicios">Automatización de procesos</a></li>
-        <li><a href="#servicios">Chatbots y Agentes</a></li>
-        <li><a href="#servicios">Diseño Web</a></li>
-        <li><a href="#servicios">Atención al Cliente 24/7</a></li>
-        <li><a href="#servicios">Soluciones a Medida</a></li>
-        <li><a href="#servicios">Integración con Sistemas</a></li>
+        <li><a href="#servicios">Diagnóstico inicial</a></li>
+        <li><a href="#servicios">Tu equipo de desarrollo</a></li>
+        <li><a href="#servicios">Formación de tu equipo</a></li>
+        <li><a href="#posibilidades">Qué podemos crear</a></li>
       </ul>
     </div>
     <div>
@@ -363,13 +499,12 @@
       <ul class="footer-links">
         <li><a href="mailto:contacto@ionex.ai">contacto@ionex.ai</a></li>
         <li><a href="https://wa.me/59897535033" target="_blank" rel="noopener">WhatsApp</a></li>
-        <li><a href="https://instagram.com/ionex.ai" target="_blank" rel="noopener">Instagram</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
     <p>© 2026 Ionex AI. Todos los derechos reservados.</p>
-    <p>AI & Software Solutions · Uruguay</p>
+    <p>AI & Software Solutions</p>
   </div>
 </footer>
 
@@ -379,10 +514,6 @@
     <span class="floating-tooltip">Volver arriba</span>
     <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
   </button>
-  <a href="https://instagram.com/ionex.ai" target="_blank" rel="noopener" class="floating-btn visible" aria-label="Instagram">
-    <span class="floating-tooltip">Instagram</span>
-    <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-  </a>
   <a href="https://wa.me/59897535033?text=Hola%20Ionex%2C%20quiero%20consultar%20sobre%20sus%20servicios" target="_blank" rel="noopener" class="floating-btn floating-btn-wa visible" aria-label="WhatsApp">
     <span class="floating-tooltip">WhatsApp</span>
     <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
@@ -417,6 +548,94 @@
     entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+
+  // Calculadora A: leads sin responder
+  (function () {
+    var contactos = document.getElementById('calc-leads-contactos');
+    var perdidos = document.getElementById('calc-leads-perdidos');
+    var ticket = document.getElementById('calc-leads-ticket');
+    var resultado = document.getElementById('calc-leads-resultado');
+    if (!contactos) return;
+    var fmt = function (n) { return 'USD ' + Math.round(n).toLocaleString('es-UY'); };
+    function calcular() {
+      document.getElementById('calc-leads-contactos-v').textContent = contactos.value;
+      document.getElementById('calc-leads-perdidos-v').textContent = perdidos.value;
+      var leadsMes = Number(contactos.value) * 4.33;
+      var perdidosMes = leadsMes * (Number(perdidos.value) / 10);
+      resultado.textContent = fmt(perdidosMes * Number(ticket.value || 0));
+    }
+    [contactos, perdidos, ticket].forEach(function (el) { el.addEventListener('input', calcular); });
+    calcular();
+  })();
+
+  // Calculadora B: horas en tareas repetitivas
+  (function () {
+    var horas = document.getElementById('calc-horas-semana');
+    var personas = document.getElementById('calc-horas-personas');
+    var resultado = document.getElementById('calc-horas-resultado');
+    if (!horas) return;
+    function calcular() {
+      document.getElementById('calc-horas-semana-v').textContent = horas.value;
+      document.getElementById('calc-horas-personas-v').textContent = personas.value;
+      var horasMes = Math.round(Number(horas.value) * 4.33 * Number(personas.value));
+      resultado.textContent = horasMes.toLocaleString('es-UY') + ' horas';
+    }
+    [horas, personas].forEach(function (el) { el.addEventListener('input', calcular); });
+    calcular();
+  })();
+
+  // Formulario de contacto → webhook de captación de leads (n8n), con UTMs de la URL actual
+  (function () {
+    var WEBHOOK_URL = 'https://proyecto1-n8n.gsdogn.easypanel.host/webhook/captacion-leads';
+    var params = new URLSearchParams(window.location.search);
+    var setHidden = function (id, value) { var el = document.getElementById(id); if (el) el.value = value || ''; };
+    setHidden('utm_source', params.get('utm_source'));
+    setHidden('utm_medium', params.get('utm_medium'));
+    setHidden('utm_campaign', params.get('utm_campaign'));
+    setHidden('utm_content', params.get('utm_content'));
+    setHidden('page_url', window.location.href);
+
+    var form = document.getElementById('lead-form');
+    var status = document.getElementById('lead-form-status');
+    if (!form) return;
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var submitBtn = form.querySelector('.lead-form-submit');
+      submitBtn.disabled = true;
+      status.textContent = 'Enviando…';
+      status.className = 'lead-form-status';
+
+      var payload = {
+        Nombre: form.Nombre.value,
+        Email: form.Email.value,
+        telefono: form.telefono.value,
+        mensaje: form.mensaje.value,
+        utm_source: document.getElementById('utm_source').value,
+        utm_medium: document.getElementById('utm_medium').value,
+        utm_campaign: document.getElementById('utm_campaign').value,
+        utm_content: document.getElementById('utm_content').value,
+        page_url: document.getElementById('page_url').value
+      };
+
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error('Error ' + res.status);
+          form.reset();
+          status.textContent = 'Listo, recibimos tu solicitud. Te llamamos en las próximas 24 horas.';
+          status.className = 'lead-form-status lead-form-status-ok';
+        })
+        .catch(function () {
+          status.textContent = 'No pudimos enviar el formulario. Escribinos por WhatsApp mientras tanto.';
+          status.className = 'lead-form-status lead-form-status-error';
+        })
+        .finally(function () { submitBtn.disabled = false; });
+    });
+  })();
 </script>
 </body>
 </html>
